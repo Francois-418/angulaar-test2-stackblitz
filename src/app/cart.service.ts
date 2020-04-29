@@ -10,7 +10,7 @@ export class CartService {
   items = [];
 
   constructor(
-    private htttp: HttpClient
+    private http: HttpClient
   ) {}
 
   addToCart(product) {
